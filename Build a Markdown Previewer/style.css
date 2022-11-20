@@ -1,0 +1,99 @@
+html{
+    font-size: 16px;
+}
+*,
+::after,
+::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    background-color: darkgrey;
+}
+
+#editor-pane, #preview-pane{
+    width: 70%;
+    height: auto;
+    margin: 100px auto 30px auto;
+}
+
+#header-div1, #header-div2{
+    width: 10%;
+    margin-left: 2%;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#editor-header, #preview-header{
+    width: 100%;
+    background-color: lightcoral;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+}
+
+#preview-pane{
+    width: 80%;
+}
+
+#btn-div1, #btn-div2{
+    width: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#editor{
+    width: 100%;
+    background-color: black;
+    color: white;
+    outline: none;
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 0 0 5px 5px;
+
+}
+
+#preview{
+    height: 100vh;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 0 0 5px 5px;
+    padding: 2rem;
+    color: white;
+    overflow: auto;
+}
+
+.hide{
+    display: none;
+}
+
+img{
+    width: 70%;
+    margin: 0.5rem;
+}
+
+pre{
+    width: 70%;
+    background-color: white;
+    padding: 0.5rem;
+}
+blockquote{
+    border-left: 2px solid burlywood;
+    padding-left: 1rem;
+}
+table, th, td{
+    border: 2px solid white;
+    padding-left: 1rem;
+}
+
+table{
+    width: 60%;
+}
