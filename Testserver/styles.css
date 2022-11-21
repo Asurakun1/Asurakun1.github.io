@@ -1,7 +1,23 @@
+html{
+    background-color: rgb(66, 0, 0);
+    font-size: 25px;
+    color: white;
+}
+
 .helloWorld{
-    text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 5vw;
-    border: 1px solid black;
-    
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50vh;
+    margin-right: 50vh;
+
+}
+
+#object #myRealTarget{
+    border: 2px solid white;
+    margin: 0 70vh 0 50vh;
+    height: 100px;
 }
