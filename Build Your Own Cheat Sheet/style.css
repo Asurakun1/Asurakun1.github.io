@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(24, 151, 255);
+}
+
+header{
+    text-align: center;
+    border: 1px solid black;
+    margin: 0px 50vh;
+    background-color: lightblue;
+}
+
+table{
+    margin: 10rem auto;
+}
+
+thead td{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: cursive;
+
+}
+
+td{
+    background-color: bisque;
+    font-size: 20px;
+    padding: 10px;
+}
+

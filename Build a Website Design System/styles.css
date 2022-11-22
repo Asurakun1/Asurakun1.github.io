@@ -1,0 +1,102 @@
+html{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+}
+
+section{
+    margin-bottom: 10px;
+}
+
+section .outerLayer{
+    border: 1px solid black;
+}
+
+section .outerLayer, .color{
+    margin-right: 50px;
+    padding: 20px;
+}
+
+h1{
+    font-size: 32px;  
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h5{
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+
+.fontShowCase{
+    margin: 0 140px 10px 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.nunitoSans{
+    font-family: "Nunito Sans";
+}
+
+.poppins{
+    font-family: "Poppins";
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.color{
+    display: inline-block;
+    line-height: 1.5;
+    width: 30vh;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 3vh;
+}
+
+
+.sourceCodePro{
+    font-family: "Source Code Pro";
+    letter-spacing: 3px;
+}
+
+#coolBlue{
+    background-color: #2d5dcc;
+}
+
+#pink{
+    background-color: #d957d9;
+}
+
+#mintGreen, #beige{
+    color: black;
+}
+
+#mintGreen{
+    background-color: #4fe0b0;
+}
+
+#beige{
+    background-color: #efd9ca;
+}
+
+#giant{
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#medium{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#small{
+    font-weight: 400;
+    font-size: 14px;
+}
