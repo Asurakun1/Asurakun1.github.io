@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    border: 1px solid rgb(26, 26, 26);
+    background-color: rgb(26, 26, 26);
+    color: whitesmoke;
+    font-size: 1.7rem;
+    top: 0;
+}
+
+nav a{
+    color: whitesmoke;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10vh;
+    gap: 10vh;
+
+}
+
+section div{
+    margin: 0;
+    padding: 0;
+    height: 15vh;
+    background-color: rgb(224, 218, 218);
+}
+
+.logo{
+    margin-top: 9.1vh;
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    background-image: url("https://www.bijoulashes.com/wp-content/uploads/2019/04/gold-texture-golden-gold-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cells{
+    display: flex;
+    justify-content: center;
+    gap: 15vh;
+}
+
+.square{
+    background-color: rgba(27, 22, 22, 0.801);
+    border-radius: 5%;
+    color:whitesmoke;
+    width: 55vh;
+    font-size: 1.85rem;
+}
+
+
+.realEstate-section div{
+    text-align: center;
+}
+
+.realEstate-section div{
+    margin-top: 10vh;
+    background-color: black;
+    width: 70vh;
+    opacity: 0.9;
+}
+
+.realEstate-section{
+    color: whitesmoke;
+    background-image: url("https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?cs=srgb&dl=pexels-david-mcbee-1546168.jpg&fm=jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.contact-us{
+    text-align: center;
+    background-color: rgb(224, 218, 218);
+    font-size: 2rem;
+}
