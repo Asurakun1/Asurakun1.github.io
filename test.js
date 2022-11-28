@@ -4,7 +4,7 @@ async function getapi(url)
 {
   const response = await fetch(url);
   let data = await response.json();
-  console.log(data[10].q);
+  return data;
 }
 
-getapi(api_url);
+console.log(getapi(api_url).then(data => console.log(data)));
