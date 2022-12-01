@@ -2,13 +2,11 @@ let header = document.querySelectorAll("h1")[0];
 let header2 = document.querySelectorAll("h1")[1];
 let button = document.querySelector("button");
 
-let random = Math.floor(Math.random() * 7);
-
 let fonts = ['cursive', 'Helvetica', 'Arial', 'Verdana', 'Trebuchet', 'Script', 'Impact'];
 
 let state = 0;
 let change = () => {
-    random = Math.floor(Math.random() * 7);
+    let random = Math.floor(Math.random() * 7);
     button.style.backgroundColor = 'lightblue';
     switch(state){
         case 0:
